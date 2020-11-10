@@ -1,0 +1,31 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+pytest = "*"
+#fastapi-code-generator = "*"
+"aws-cdk.core" = "==1.62.0"
+"aws-cdk.aws-s3" = "==1.62.0"
+"aws-cdk.aws-s3-assets" = "==1.62.0"
+"aws-cdk.aws-lambda" = "==1.62.0"
+"aws-cdk.aws-apigateway" = "==1.62.0"
+"aws-cdk.aws-ec2" = "==1.62.0"
+"aws-cdk.aws-ecs" = "==1.62.0"
+"aws-cdk.aws-ecs-patterns" = "==1.62.0"
+
+[packages]
+fastapi = "==0.61.1"
+requests = "==2.24.0"
+xmltodict = "==0.12.0"
+uvicorn = "==0.11.8"
+cx-Oracle = "==8.0.1"
+# Momenteel staat dit even outcommented: op ubuntu heeft niet iedereen nog python 3.8
+#[requires]
+#python_version = "3.6"
+# Om deze reden is tijdelijk ook de Pipfile.lock in de .gitignore
+
+[pipenv]
+allow_prereleases = true

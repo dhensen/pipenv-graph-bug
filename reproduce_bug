@@ -1,0 +1,6 @@
+#!/bin/bash
+# We are currently using: 2020.8.13
+# Latest at 2020-11-10: 2020.11.4
+
+docker build --build-arg PIPENV_VERSION=2020.8.13 -t pipenv-graph-bug .
+docker run --rm pipenv-graph-bug
