@@ -1,4 +1,4 @@
-# Pipenv graph loop
+# Pipenv graph ~loop~
 
 > Update: turns out this it NOT A PIPENV BUG. The pipenv graph is also not looping, it just takes a realllyyy long time to complete.
 
